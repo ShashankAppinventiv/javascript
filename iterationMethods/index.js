@@ -33,3 +33,10 @@ for(;i<=15;i++)
 }
 console.log("Element after for-loop iteration")
 console.log(arr)
+
+//foreach loop for array iteration
+console.log("for each loop iteration")
+arr.forEach(item=>{
+    console.log(item)
+})
+
