@@ -22,3 +22,16 @@ const reduceCopyStorageVariable= arr.reduce(redu)
 
 console.log(reduceCopyStorageVariable);
 
+
+//sort 
+
+//it sort the data according to function expression
+
+//ascending order
+const sortData=arr.sort((a,b)=>a-b);
+console.log(sortData);
+
+//descending order
+
+const desData=arr.sort((a,b)=>b-a);
+console.log(desData)
